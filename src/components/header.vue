@@ -1,0 +1,51 @@
+<template>
+  <div class="header">
+    <div class="taro-img logo">
+      <img
+        class="taro-img__mode-scaletofill"
+        src="//mcdn.pinduoduo.com/home/static/images/logo.png"
+      />
+    </div>
+    <span class="taro-text text">0.1元包邮抢16包清风面巾纸</span>
+    <span class="taro-text buy-btn">前往购买</span>
+  </div>
+</template>
+<script>
+
+export default {
+  
+};
+</script>
+<style lang="scss" scoped>
+.header {
+  width: 100%;  
+  height: 0.45rem;
+  background: url(data:image/png;base64,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)
+    0% 0% / 100% 100% no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .logo {
+    width: 0.9rem;
+    height: 0.3rem;
+    .taro-img__mode-scaletofill {
+      width: 0.9rem;
+      height: 0.3rem;
+    }
+  }
+  .text {
+    width: 1.55rem;
+    color: #fff;
+  }
+  .buy-btn {
+    width: 0.7399rem;
+    height: 0.28rem;
+    font-size: 0.14rem;
+    line-height: 0.28rem;
+    text-align: center;
+    border-radius: 0.05rem;
+    color: #ed2632;
+    background-color: #fff;
+  }
+}
+</style>
